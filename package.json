@@ -1,0 +1,24 @@
+{
+  "name": "init-discord-bot-v13",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leonardo C. Carvalho <i.leonardo.c.c@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js",
+    "eslint": "eslint --fix"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
